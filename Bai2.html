@@ -13,7 +13,7 @@
     <input type="number" id="b">
     <input type="number" id="c">
     <button onclick="xemKetQua()">Xem kết quả</button>
-    <p id="show">Hiển thị số max</p>
+ 
     <script>
 
         function xemKetQua() {
@@ -24,17 +24,17 @@
             if (a > b) {
                 max = a;
             } if (a > c) {
-            document.getElementById('ht').innerText=a;
-                console.log("a là số lớn nhất");
+          
+                console.log("a là số lớn nhất"+b);
             } else if (b > c) {
-                document.getElementById('ht').innerText=b;
-                console.log("b là số lớn nhất")
-            } else {
-                document.getElementById('ht').innerText=c;
-                console.log("c là số lớn nhất")
-            }
+                
+                console.log("b là số lớn nhất"+b)
+            } else  {
+               
+                console.log("c là số lớn nhất"+c)
+            }}
 
-        }
+        
 
     </script>
 </body>
